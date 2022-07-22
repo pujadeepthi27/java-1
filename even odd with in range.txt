@@ -1,0 +1,33 @@
+* java program to print even numbers from 1 to 100
+public class DisplayEvenNumbers
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of even numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{    
+if (i%2==0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+} 
+
+ 
+*java program to print odd numbers from 1 to 100
+class OddNumber 
+{
+	public static void main(String args[]) 
+      {
+		System.out.println("The Odd Numbers are:");
+		for (int i = 1; i <= 100; i++) 
+            {
+	  		if (i % 2 != 0) 
+                  {
+				System.out.print(i + " ");
+			}
+		}
+	}
+}
